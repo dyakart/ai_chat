@@ -1,0 +1,13 @@
+[project]
+name = "ai-chat"
+version = "0.1.0"
+description = "AI chat for pet project."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.123.5",
+    "google-genai>=1.53.0",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]
